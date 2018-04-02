@@ -1,0 +1,68 @@
+{
+  "contract_name": "Adoption",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getAdopters",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[16]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "adopters",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "petId",
+          "type": "uint256"
+        }
+      ],
+      "name": "adopt",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b61024c8061001e6000396000f3006060604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633de4eb17811461005b57806343ae80d3146100a75780638588b2c5146100e6575b600080fd5b341561006657600080fd5b61006e61010e565b604051808261020080838360005b8381101561009457808201518382015260200161007c565b5050505090500191505060405180910390f35b34156100b257600080fd5b6100bd600435610164565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b34156100f157600080fd5b6100fc60043561018e565b60405190815260200160405180910390f35b6101166101f7565b600060106102006040519081016040529190610200830182845b815473ffffffffffffffffffffffffffffffffffffffff168152600190910190602001808311610130575050505050905090565b6000816010811061017157fe5b015473ffffffffffffffffffffffffffffffffffffffff16905081565b60008082101580156101a15750600f8211155b15156101ac57600080fd5b33600083601081106101ba57fe5b01805473ffffffffffffffffffffffffffffffffffffffff191673ffffffffffffffffffffffffffffffffffffffff929092169190911790555090565b6102006040519081016040526010815b60008152600019909101906020018161020757905050905600a165627a7a72305820175d04e925c4d63b1ba00c1f2c369d75bd0b204881583c3fa1fa2921063db45a0029",
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x65a1996f9aae86744a8e4c2d021e301d40125aa8",
+      "updated_at": 1522657784792
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1522657784792
+}
